@@ -1,9 +1,11 @@
 #!/bin/bash
 #Glanel Houenouvi
 #Week 4 Assignment
-# make Baba  a direectory
-mkdir ~/bobo
-#make baba a partition
-dd if=~/bobo of=swap_file bs=1024k count=1
+echo "make Bobo a direectory"
+mkdir /bobo
+echo "make bobo a partition"
+dd if=/bobo of=swap_file bs=1024k count=1
 
+
+echo "end of script"
   

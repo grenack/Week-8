@@ -1,17 +1,21 @@
 #!/bin/bash
 #Glanel Houenouvi
 #Week2 Command
-#print the sentence "Hello Amigo How are You"
-echo "Hello Amigo How are  you"
-# create a file FA
+echo "print the sentence "Hello Amigo How are You"
+echo "Hello Amigo How are you"
+sleep 1
+echo "create a file FA"
 touch FA
-#put word Papy in file FA
+sleep 1
+echo "put word Papy in file FA"
 echo "Papy" > FA
-
-#Globbing everything with file
-Globbing *d
-#print the actual directory
+sleep 1
+echo "Globbing everything within directory"
+echo *
+echo "print the actual directory"
 pwd
-#run the output of file FA
+sleep 1
+echo "run the output of file FA"
 ls -l FA
- 
+
+echo "end of script"

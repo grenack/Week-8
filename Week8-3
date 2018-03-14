@@ -1,12 +1,15 @@
 #!/bin/bash
 #Glanel Houenouvi
 #Week 3 Command
-#send this sentence"Chers amis au revoir"  Trash (dev/null)
+#Week 3 Command
+echo "send this sentence to Trash (dev/null)"
 echo "Chers amis au revoir" > /dev/null
-#show all the device in the system
+echo "show all the device in the system"
 blkid
-#find the system file 
+sleep 1
+echo "find the system file"
 find /sys | grep sd | less
-#Show the process partition
+echo "Show the process partition"
 ls /proc/partitions
-
+sleep 1
+echo "end of script"

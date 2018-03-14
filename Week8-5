@@ -1,8 +1,10 @@
 #!/bin/bash
 #Glanel Houenouvi
 #Week 5-6
-# Download  Image  from firefox
-firefox pexels-photo-236636.jpeg
-
-
-
+echo "Download Image from a source"
+AmbazoniaFlag='https://www.google.com/search?q=benin+map&ie=utf-8&oe=utf-8&client=firefox-b-ab'
+sleep 2
+echo "open The flag"
+firefox ${AmbazoniaFlag}
+sleep 5
+echo "end of script"
